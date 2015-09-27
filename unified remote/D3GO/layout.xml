@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<row>
+		<button color="red" icon="camera" onTap="print" />
+		<button color="red" icon="record" onTap="video" />
+		<button text="START" onTap="firefox" />
+		<button text="EXIT" onTap="exit" />
+		
+	</row>
+	
+     <row>
+		<button icon="play" onTap="start" />
+		<button icon="docclose" onTap="close_tab" />
+		<button icon="docnew" onTap="new_tab" />
+		<button text="TABOVI" onTap="previous_tab" />
+	</row>
+	
+	<row>
+      <button color="#3A75C4" icon="zoomout" onTap="zoom_out" />
+      <button color="#3A75C4" icon="zoomnormal" onTap="zoom_normal" />
+      <button color="#3A75C4" icon="zoomin" onTap="zoom_in" />
+	  <button text="ESC" onTap="escape" />
+    </row>
+	
+	<row>
+		<button color="green" icon="vdown" onTap="volume_down" />
+		<button color="green" icon="vmute" onTap="volume_mute" />
+		<button color="green" icon="vup" onTap="volume_up" />
+	</row>
+		<row>
+		<button icon="fullscreen" onTap="fullscreen" />
+		<button color="#FFAD01" icon="arrowup" onTap="up" />
+		<button icon="refresh" onTap="refresh" />
+    </row>
+	<row>
+	    <button color="#EE7B1B" icon="up" onTap="left" />
+		<button color="#FFAD01" icon="arrowdown" onTap="down" />
+	    <button color="#EE7B1B" icon="down" onTap="right" />
+		
+	</row>
+	
+		<row>
+	    <button icon="back" onTap="back" />
+		<button text="ENT" onTap="enter" />
+	    <button text="BALKAN" onTap="balkanika" />
+		<button text="PLANET" onTap="planeta" />
+		
+	</row>
+	
+	
+	
+</layout>
